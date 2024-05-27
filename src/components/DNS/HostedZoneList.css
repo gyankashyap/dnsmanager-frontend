@@ -1,0 +1,68 @@
+.hosted-zone-list {
+    padding: 10px;
+  }
+  
+  .hosted-zone-list h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .hosted-zone {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .hosted-zone-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .zone-name {
+    font-weight: bold;
+  }
+  
+  .zone-id {
+    color: #666;
+  }
+  
+  .records-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .records-table th,
+  .records-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .records-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .records-table td {
+    text-align: left;
+  }
+  
+  .records-table .actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .records-table .action-button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .records-table .action-button:hover {
+    background-color: #0056b3;
+  }
+  
