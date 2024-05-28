@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = `${process.env.API_URL}/dns`;
+const API_URL = `https://dnsmanager-backend-ri0o.onrender.com/dns`;
 
 const getAuthConfig = (token) => ({
   headers: { Authorization: `Bearer ${token}` },
